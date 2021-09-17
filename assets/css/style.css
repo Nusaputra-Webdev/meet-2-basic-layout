@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Layout */
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    padding: 0px 20px;
+}
+
+/* Components */
+
+.title {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0,0,0,.7);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mt-12 {
+    margin-top: 12px;
+}
+
+.header {
+ display: flex;
+ align-items: center;
+ background-color: #345B63; 
+ padding: 7px 0;  
+}
+.header .header-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header .navbar-brand {
+    text-decoration: none;
+}
+
+.header .navbar-brand img {
+    height: 35px;
+}
+
+.header .navbar-nav {
+    margin-left: auto;
+}
+.header .navbar-nav ul {
+    display: flex;
+}
+.header .navbar-nav ul li {
+    list-style: none;
+    margin: 0px 5px;
+}
+
+.header .navbar-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+/* Sections */
+
+.hero {
+    background-image: url(../images/nusaputra.jpg);
+}
+.hero .hero-dark {
+    background-color: rgba(0,0,0,.7);
+    min-height: 500px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+
+.hero  .hero-title {
+    font-size: 60px;
+    max-width: 500px;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.what-we-do {
+    padding: 50px 0;
+}
+
+.wd-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.wd-row .wd-col {
+    flex: 0 0 33.33%;
+    padding: 10px;
+}
+.wd-row .wd-col .wd-card {
+    box-shadow: 0 0 30px 1px rgba(0,0,0,.2);
+    border-radius: 5px;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
+}
+
+.wd-row .wd-col .wd-card .wd-icon {
+    background-color: #A80063;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wd-row .wd-col .wd-card .wd-icon img {
+    height: 30px;
+}
+
+.wd-row .wd-content {
+    margin-top: 40px;
+}
